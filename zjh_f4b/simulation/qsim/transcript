@@ -1,0 +1,94 @@
+# do zjh_f4b.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:32:46 on Dec 29,2021
+# vcom -work work zjh_f4b.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cyclone10lp_atom_pack
+# -- Loading package cyclone10lp_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity zjh_f4b
+# -- Compiling architecture structure of zjh_f4b
+# End time: 01:32:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:32:46 on Dec 29,2021
+# vcom -work work Waveform5.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zjh_f4b_vhd_vec_tst
+# -- Compiling architecture zjh_f4b_arch of zjh_f4b_vhd_vec_tst
+# End time: 01:32:47 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclone10lp -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.zjh_f4b_vhd_vec_tst 
+# Start time: 01:32:47 on Dec 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.zjh_f4b_vhd_vec_tst(zjh_f4b_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cyclone10lp.cyclone10lp_atom_pack(body)
+# Loading cyclone10lp.cyclone10lp_components
+# Loading work.zjh_f4b(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cyclone10lp.cyclone10lp_io_obuf(arch)
+# Loading cyclone10lp.cyclone10lp_io_ibuf(arch)
+# Loading cyclone10lp.cyclone10lp_clkctrl(vital_clkctrl)
+# Loading cyclone10lp.cyclone10lp_ena_reg(behave)
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cyclone10lp.cyclone10lp_ram_block(block_arch)
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)
+# Loading cyclone10lp.cyclone10lp_ram_pulse_generator(pgen_arch)
+# Loading ieee.std_logic_unsigned(body)
+# Loading cyclone10lp.cyclone10lp_mac_mult(vital_cyclone10lp_mac_mult)
+# Loading cyclone10lp.cyclone10lp_mac_data_reg(vital_cyclone10lp_mac_data_reg)
+# Loading cyclone10lp.cyclone10lp_mac_sign_reg(cyclone10lp_mac_sign_reg)
+# Loading cyclone10lp.cyclone10lp_mac_mult_internal(vital_cyclone10lp_mac_mult_internal)
+# Loading cyclone10lp.cyclone10lp_mac_out(vital_cyclone10lp_mac_out)
+# ** Warning: Design size of 66645 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# after#35
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /zjh_f4b_vhd_vec_tst/i1/\inst|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /zjh_f4b_vhd_vec_tst/i1/\inst|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /zjh_f4b_vhd_vec_tst/i1/\inst|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /zjh_f4b_vhd_vec_tst/i1/\inst|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /zjh_f4b_vhd_vec_tst/i1/\inst|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /zjh_f4b_vhd_vec_tst/i1/\inst|Mult0|auto_generated|mac_mult1\/mac_multiply
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 3270000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 48040000 ps
+# Simulation time: 94140000 ps
+# End time: 01:33:31 on Dec 29,2021, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 7

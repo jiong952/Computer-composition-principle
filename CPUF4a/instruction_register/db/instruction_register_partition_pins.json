@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "aBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "aBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "load",
+					"strict" : false
+				},
+				{
+					"name" : "store",
+					"strict" : false
+				},
+				{
+					"name" : "add",
+					"strict" : false
+				},
+				{
+					"name" : "sub",
+					"strict" : false
+				},
+				{
+					"name" : "mul",
+					"strict" : false
+				},
+				{
+					"name" : "div",
+					"strict" : false
+				},
+				{
+					"name" : "andd",
+					"strict" : false
+				},
+				{
+					"name" : "orr",
+					"strict" : false
+				},
+				{
+					"name" : "nott",
+					"strict" : false
+				},
+				{
+					"name" : "neg",
+					"strict" : false
+				},
+				{
+					"name" : "halt",
+					"strict" : false
+				},
+				{
+					"name" : "branch",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "en_A",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ld",
+					"strict" : false
+				},
+				{
+					"name" : "en_D",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

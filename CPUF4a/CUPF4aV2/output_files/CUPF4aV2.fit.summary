@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Dec 19 17:57:08 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : CUPF4aV2
+Top-level Entity Name : CUPF4aV2
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 1,181 / 6,272 ( 19 % )
+    Total combinational functions : 1,180 / 6,272 ( 19 % )
+    Dedicated logic registers : 51 / 6,272 ( < 1 % )
+Total registers : 51
+Total pins : 42 / 92 ( 46 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

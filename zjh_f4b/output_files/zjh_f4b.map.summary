@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 29 01:09:56 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : zjh_f4b
+Top-level Entity Name : zjh_f4b
+Family : Cyclone 10 LP
+Total logic elements : 309
+    Total combinational functions : 261
+    Dedicated logic registers : 136
+Total registers : 136
+Total pins : 147
+Total virtual pins : 0
+Total memory bits : 12,288
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 0

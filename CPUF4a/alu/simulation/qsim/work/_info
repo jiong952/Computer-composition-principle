@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/test/alu/simulation/qsim
+Ealu
+Z1 w1608354525
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+!i122 4
+R0
+Z8 8alu.vho
+Z9 Falu.vho
+l0
+L78 1
+VYTJj<;IzzGBe=5]TbUJNO2
+!s100 hO=M2lcQ40adU7eVkXiR<2
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1608354526
+!i10b 1
+Z12 !s108 1608354526.000000
+Z13 !s90 -work|work|alu.vho|
+Z14 !s107 alu.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 YTJj<;IzzGBe=5]TbUJNO2
+!i122 4
+l618
+L144 5326
+V?k^klY66`VKNVR=A<?Ma>3
+!s100 <b7;UiaV_FEXdb62RQAeK0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ealu_vhd_vec_tst
+Z17 w1608354524
+R5
+R6
+!i122 5
+R0
+Z18 8Waveform1.vwf.vht
+Z19 FWaveform1.vwf.vht
+l0
+L32 1
+VS2RS630:XE9<F1mHB=VWL3
+!s100 O@hBGLfa[1JHooA?:n]K`1
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform1.vwf.vht|
+Z21 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Aalu_arch
+R5
+R6
+Z22 DEx4 work 15 alu_vhd_vec_tst 0 22 S2RS630:XE9<F1mHB=VWL3
+!i122 5
+l51
+L34 269
+VIIV]T[WkR4`h`QC:A`9_03
+!s100 az@iXF<0BB1bK:H_`7Uo01
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 4
+R0
+R8
+R9
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 4
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/test/CPUP/simulation/qsim
+Ecpup
+Z1 w1608268437
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 28
+R0
+Z10 8CPUP.vho
+Z11 FCPUP.vho
+l0
+L80 1
+V4bc4DgRQzHRQSm=_MDJSK3
+!s100 PN59McOo0Z`Rd@MEFZ:X23
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1608268438
+!i10b 1
+Z14 !s108 1608268438.000000
+Z15 !s90 -work|work|CPUP.vho|
+Z16 !s107 CPUP.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 4 cpup 0 22 4bc4DgRQzHRQSm=_MDJSK3
+!i122 28
+l901
+L248 10283
+VJ;W<M7:K]YB^_J>l6:^Ie1
+!s100 Xd5zDi5;C[DN?m:Tbn@`]3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Ecpup_vhd_vec_tst
+Z19 w1608268436
+R7
+R8
+!i122 29
+R0
+Z20 8Waveform21.vwf.vht
+Z21 FWaveform21.vwf.vht
+l0
+L32 1
+VVf[mW>`_Q=H<nnVJ4@Cia1
+!s100 RkOg:bJ=41ZhT1kdUbGKB1
+R12
+32
+Z22 !s110 1608268439
+!i10b 1
+Z23 !s108 1608268439.000000
+Z24 !s90 -work|work|Waveform21.vwf.vht|
+!s107 Waveform21.vwf.vht|
+!i113 1
+R17
+R18
+Acpup_arch
+R7
+R8
+Z25 DEx4 work 16 cpup_vhd_vec_tst 0 22 Vf[mW>`_Q=H<nnVJ4@Cia1
+!i122 29
+l67
+L34 83
+V8J9<DCImQBWOZ]0BH1z6d1
+!s100 bgTPbiVW9=i:QOl[]:k:j0
+R12
+32
+R22
+!i10b 1
+R23
+R24
+Z26 !s107 Waveform21.vwf.vht|
+!i113 1
+R17
+R18
+Ehard_block
+R1
+R4
+R2
+R6
+R7
+R8
+R3
+!i122 28
+R0
+R10
+R11
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 28
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18

@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1/zjh_Hard wiring_cpu/simulation/qsim
+Ehard_block
+Z0 w1639718480
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx11 cyclone10lp 21 cyclone10lp_atom_pack 0 22 hEmQHzKVEGB^[hElXWL>`1
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z6 DPx11 cyclone10lp 22 cyclone10lp_components 0 22 P>e95jJ7U1K9acGdeLG`g2
+!i122 12
+Z7 dC:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim
+Z8 8zjh_Hardwiring_cpu.vho
+Z9 Fzjh_Hardwiring_cpu.vho
+l0
+L35 1
+VnoSfVj?fNjXHhOP5_^Ul[2
+!s100 Sn11NdfJ;?D78I?HD]9>l1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1639718481
+!i10b 1
+Z12 !s108 1639718481.000000
+Z13 !s90 -work|work|zjh_Hardwiring_cpu.vho|
+Z14 !s107 zjh_Hardwiring_cpu.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 hard_block 0 22 noSfVj?fNjXHhOP5_^Ul[2
+!i122 12
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etop_level
+R0
+R2
+R6
+R1
+Z17 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R3
+R4
+R5
+Z18 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 12
+R7
+R8
+R9
+l0
+L80 1
+VNef30<gg8Bo7AkH4?LhGh1
+!s100 VTf<]A@jj0<<Xb:TSRcGE3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R6
+R1
+R17
+R3
+R4
+R5
+R18
+DEx4 work 9 top_level 0 22 Nef30<gg8Bo7AkH4?LhGh1
+!i122 12
+l1459
+L148 22076
+VL;_QdB;PPQ8EC9;zYzB7N1
+!s100 nV7zW[dn?c9NOG^KQdMQ12
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etop_level_vhd_vec_tst
+Z19 w1639718478
+R4
+R5
+!i122 13
+R7
+Z20 8Waveform1.vwf.vht
+Z21 FWaveform1.vwf.vht
+l0
+L32 1
+Vz4W7UOOLR_fUZ9OzmaocK2
+!s100 2S7nXjY@FF@V1O@8la6^@0
+R10
+32
+Z22 !s110 1639718482
+!i10b 1
+Z23 !s108 1639718482.000000
+Z24 !s90 -work|work|Waveform1.vwf.vht|
+Z25 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Atop_level_arch
+R4
+R5
+Z26 DEx4 work 21 top_level_vhd_vec_tst 0 22 z4W7UOOLR_fUZ9OzmaocK2
+!i122 13
+l77
+Z27 L34 88
+Z28 VTbc]PQDN:e5;jSe^Z4KGd2
+Z29 !s100 E2XmZ<7M6iCa:jURf<8<z0
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R15
+R16

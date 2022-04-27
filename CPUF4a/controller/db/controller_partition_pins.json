@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "mem_enD",
+					"strict" : false
+				},
+				{
+					"name" : "mem_rw",
+					"strict" : false
+				},
+				{
+					"name" : "pc_enA",
+					"strict" : false
+				},
+				{
+					"name" : "pc_ld",
+					"strict" : false
+				},
+				{
+					"name" : "pc_inc",
+					"strict" : false
+				},
+				{
+					"name" : "ir_enA",
+					"strict" : false
+				},
+				{
+					"name" : "ir_enD",
+					"strict" : false
+				},
+				{
+					"name" : "ir_ld",
+					"strict" : false
+				},
+				{
+					"name" : "acc_enD",
+					"strict" : false
+				},
+				{
+					"name" : "acc_ld",
+					"strict" : false
+				},
+				{
+					"name" : "acc_selAlu",
+					"strict" : false
+				},
+				{
+					"name" : "alu_op[0]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_op[1]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_op[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ir_store",
+					"strict" : false
+				},
+				{
+					"name" : "ir_load",
+					"strict" : false
+				},
+				{
+					"name" : "ir_mul",
+					"strict" : false
+				},
+				{
+					"name" : "ir_sub",
+					"strict" : false
+				},
+				{
+					"name" : "ir_add",
+					"strict" : false
+				},
+				{
+					"name" : "ir_or",
+					"strict" : false
+				},
+				{
+					"name" : "ir_and",
+					"strict" : false
+				},
+				{
+					"name" : "ir_div",
+					"strict" : false
+				},
+				{
+					"name" : "ir_not",
+					"strict" : false
+				},
+				{
+					"name" : "ir_halt",
+					"strict" : false
+				},
+				{
+					"name" : "ir_branch",
+					"strict" : false
+				},
+				{
+					"name" : "ir_neg",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

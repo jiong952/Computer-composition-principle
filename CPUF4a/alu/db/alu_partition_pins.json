@@ -1,0 +1,221 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "result[8]",
+					"strict" : false
+				},
+				{
+					"name" : "result[9]",
+					"strict" : false
+				},
+				{
+					"name" : "result[10]",
+					"strict" : false
+				},
+				{
+					"name" : "result[11]",
+					"strict" : false
+				},
+				{
+					"name" : "result[12]",
+					"strict" : false
+				},
+				{
+					"name" : "result[13]",
+					"strict" : false
+				},
+				{
+					"name" : "result[14]",
+					"strict" : false
+				},
+				{
+					"name" : "result[15]",
+					"strict" : false
+				},
+				{
+					"name" : "accZ",
+					"strict" : false
+				},
+				{
+					"name" : "op[0]",
+					"strict" : false
+				},
+				{
+					"name" : "op[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "op[2]",
+					"strict" : false
+				},
+				{
+					"name" : "op[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[8]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[9]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[10]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[11]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[12]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[13]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[14]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[15]",
+					"strict" : false
+				},
+				{
+					"name" : "accD[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

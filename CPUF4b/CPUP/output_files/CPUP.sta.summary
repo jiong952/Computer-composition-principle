@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -7.711
+TNS   : -290.993
+
+Type  : Slow 1200mV 85C Model Setup 'clkMBR'
+Slack : -4.359
+TNS   : -179.456
+
+Type  : Slow 1200mV 85C Model Setup 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Slow 1200mV 85C Model Hold 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.071
+TNS   : -0.198
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkMBR'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkMBR'
+Slack : -3.000
+TNS   : -75.696
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -59.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.484
+TNS   : -55.744
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -6.849
+TNS   : -257.237
+
+Type  : Slow 1200mV 0C Model Setup 'clkMBR'
+Slack : -3.917
+TNS   : -159.205
+
+Type  : Slow 1200mV 0C Model Setup 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.049
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.017
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkMBR'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkMBR'
+Slack : -3.000
+TNS   : -75.696
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -59.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.484
+TNS   : -55.744
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -3.608
+TNS   : -130.543
+
+Type  : Fast 1200mV 0C Model Setup 'clkMBR'
+Slack : -1.806
+TNS   : -55.826
+
+Type  : Fast 1200mV 0C Model Setup 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.492
+TNS   : -9.238
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.058
+TNS   : -0.870
+
+Type  : Fast 1200mV 0C Model Hold 'clkMBR'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.680
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkMBR'
+Slack : -3.000
+TNS   : -78.257
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -64.505
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lpm_rom:inst10|altrom:srom|altsyncram:rom_block|altsyncram_8301:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -1.000
+TNS   : -32.000
+
+------------------------------------------------------------

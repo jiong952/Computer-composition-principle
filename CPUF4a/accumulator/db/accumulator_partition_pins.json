@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dBus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "selAlu",
+					"strict" : false
+				},
+				{
+					"name" : "ld",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "aluD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "en_D",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

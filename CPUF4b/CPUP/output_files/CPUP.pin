@@ -1,0 +1,327 @@
+ -- Copyright (C) 2020  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and any partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel FPGA IP License Agreement, or other applicable license
+ -- agreement, including, without limitation, that your use is for
+ -- the sole purpose of programming logic devices manufactured by
+ -- Intel and sold by Intel or its authorized distributors.  Please
+ -- refer to the applicable agreement for further details, at
+ -- https://fpgasoftware.intel.com/eula.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1:       2.5V
+ --                  Bank 2:       2.5V
+ --                  Bank 3:       2.5V
+ --                  Bank 4:       2.5V
+ --                  Bank 5:       2.5V
+ --                  Bank 6:       2.5V
+ --                  Bank 7:       2.5V
+ --                  Bank 8:       2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+CHIP  "CPUP"  ASSIGNED TO AN: EP4CE6F17C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A1        : power  :                   : 2.5V    : 8         :                
+BRN[6]                       : A2        : output : 2.5 V             :         : 8         : N              
+RAMOUT[1]                    : A3        : output : 2.5 V             :         : 8         : N              
+BROUT[8]                     : A4        : output : 2.5 V             :         : 8         : N              
+RAMOUT[8]                    : A5        : output : 2.5 V             :         : 8         : N              
+ACC[2]                       : A6        : output : 2.5 V             :         : 8         : N              
+BROUT[7]                     : A7        : output : 2.5 V             :         : 8         : N              
+ACC[4]                       : A8        : output : 2.5 V             :         : 8         : N              
+CONTROL[20]                  : A9        : output : 2.5 V             :         : 7         : N              
+RAMOUT[4]                    : A10       : output : 2.5 V             :         : 7         : N              
+PC[7]                        : A11       : output : 2.5 V             :         : 7         : N              
+PC[4]                        : A12       : output : 2.5 V             :         : 7         : N              
+MAROUT[4]                    : A13       : output : 2.5 V             :         : 7         : N              
+RAMOUT[3]                    : A14       : output : 2.5 V             :         : 7         : N              
+BROUT[3]                     : A15       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+IROUT[7]                     : B1        : output : 2.5 V             :         : 1         : N              
+GND                          : B2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 8         :                
+RAMOUT[9]                    : B4        : output : 2.5 V             :         : 8         : N              
+CONTROL[8]                   : B5        : output : 2.5 V             :         : 8         : N              
+IROUT[1]                     : B6        : output : 2.5 V             :         : 8         : N              
+ACC[15]                      : B7        : output : 2.5 V             :         : 8         : N              
+CONTROL[15]                  : B8        : output : 2.5 V             :         : 8         : N              
+ACC[1]                       : B9        : output : 2.5 V             :         : 7         : N              
+RAMOUT[6]                    : B10       : output : 2.5 V             :         : 7         : N              
+PC[0]                        : B11       : output : 2.5 V             :         : 7         : N              
+PC[5]                        : B12       : output : 2.5 V             :         : 7         : N              
+CAROUT[0]                    : B13       : output : 2.5 V             :         : 7         : N              
+MAROUT[0]                    : B14       : output : 2.5 V             :         : 7         : N              
+GND                          : B15       : gnd    :                   :         :           :                
+RAMN[2]                      : B16       : output : 2.5 V             :         : 6         : N              
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 2.5 V             :         : 1         : N              
+CONTROL[27]                  : C2        : output : 2.5 V             :         : 1         : N              
+RAMOUT[15]                   : C3        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : C4        : power  :                   : 2.5V    : 8         :                
+GND                          : C5        : gnd    :                   :         :           :                
+BROUT[1]                     : C6        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : C7        : power  :                   : 2.5V    : 8         :                
+ACC[0]                       : C8        : output : 2.5 V             :         : 8         : N              
+CONTROL[13]                  : C9        : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : C10       : power  :                   : 2.5V    : 7         :                
+RAMOUT[2]                    : C11       : output : 2.5 V             :         : 7         : N              
+GND                          : C12       : gnd    :                   :         :           :                
+VCCIO7                       : C13       : power  :                   : 2.5V    : 7         :                
+MAROUT[1]                    : C14       : output : 2.5 V             :         : 7         : N              
+RAMN[9]                      : C15       : output : 2.5 V             :         : 6         : N              
+RAMOUT[13]                   : C16       : output : 2.5 V             :         : 6         : N              
+IROUT[6]                     : D1        : output : 2.5 V             :         : 1         : N              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D2        : input  : 2.5 V             :         : 1         : N              
+CONTROL[10]                  : D3        : output : 2.5 V             :         : 8         : N              
+IROUT[3]                     : D4        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D5        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8         :                
+GND                          : D7        : gnd    :                   :         :           :                
+BROUT[5]                     : D8        : output : 2.5 V             :         : 8         : N              
+BROUT[12]                    : D9        : output : 2.5 V             :         : 7         : N              
+GND                          : D10       : gnd    :                   :         :           :                
+MAROUT[5]                    : D11       : output : 2.5 V             :         : 7         : N              
+MAROUT[3]                    : D12       : output : 2.5 V             :         : 7         : N              
+VCCD_PLL2                    : D13       : power  :                   : 1.2V    :           :                
+PC[1]                        : D14       : output : 2.5 V             :         : 7         : N              
+CONTROL[19]                  : D15       : output : 2.5 V             :         : 6         : N              
+CONTROL[18]                  : D16       : output : 2.5 V             :         : 6         : N              
+clkMBR                       : E1        : input  : 2.5 V             :         : 1         : N              
+GND                          : E2        : gnd    :                   :         :           :                
+VCCIO1                       : E3        : power  :                   : 2.5V    : 1         :                
+GND                          : E4        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 1         :                
+BRN[0]                       : E6        : output : 2.5 V             :         : 8         : N              
+RAMN[0]                      : E7        : output : 2.5 V             :         : 8         : N              
+ACC[3]                       : E8        : output : 2.5 V             :         : 8         : N              
+reset                        : E9        : input  : 2.5 V             :         : 7         : N              
+RAMOUT[0]                    : E10       : output : 2.5 V             :         : 7         : N              
+CONTROL[16]                  : E11       : output : 2.5 V             :         : 7         : N              
+GNDA2                        : E12       : gnd    :                   :         :           :                
+GND                          : E13       : gnd    :                   :         :           :                
+VCCIO6                       : E14       : power  :                   : 2.5V    : 6         :                
+GND+                         : E15       :        :                   :         : 6         :                
+GND+                         : E16       :        :                   :         : 6         :                
+IROUT[5]                     : F1        : output : 2.5 V             :         : 1         : N              
+RAMOUT[11]                   : F2        : output : 2.5 V             :         : 1         : N              
+PC[6]                        : F3        : output : 2.5 V             :         : 1         : N              
+nSTATUS                      : F4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 1         :                
+BROUT[15]                    : F6        : output : 2.5 V             :         : 8         : N              
+BROUT[4]                     : F7        : output : 2.5 V             :         : 8         : N              
+BRN[8]                       : F8        : output : 2.5 V             :         : 8         : N              
+BROUT[9]                     : F9        : output : 2.5 V             :         : 7         : N              
+PC[3]                        : F10       : output : 2.5 V             :         : 7         : N              
+RAMOUT[5]                    : F11       : output : 2.5 V             :         : 7         : N              
+VCCA2                        : F12       : power  :                   : 2.5V    :           :                
+RAMOUT[7]                    : F13       : output : 2.5 V             :         : 6         : N              
+RAMOUT[10]                   : F14       : output : 2.5 V             :         : 6         : N              
+CONTROL[24]                  : F15       : output : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : F16       : output : 2.5 V             :         : 6         : N              
+RAMN[3]                      : G1        : output : 2.5 V             :         : 1         : N              
+RAMOUT[12]                   : G2        : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : G3        : power  :                   : 2.5V    : 1         :                
+GND                          : G4        : gnd    :                   :         :           :                
+CAROUT[5]                    : G5        : output : 2.5 V             :         : 1         : N              
+VCCINT                       : G6        : power  :                   : 1.2V    :           :                
+VCCINT                       : G7        : power  :                   : 1.2V    :           :                
+VCCINT                       : G8        : power  :                   : 1.2V    :           :                
+VCCINT                       : G9        : power  :                   : 1.2V    :           :                
+VCCINT                       : G10       : power  :                   : 1.2V    :           :                
+MAROUT[7]                    : G11       : output : 2.5 V             :         : 6         : N              
+MSEL2                        : G12       :        :                   :         : 6         :                
+GND                          : G13       : gnd    :                   :         :           :                
+VCCIO6                       : G14       : power  :                   : 2.5V    : 6         :                
+MAROUT[6]                    : G15       : output : 2.5 V             :         : 6         : N              
+PC[2]                        : G16       : output : 2.5 V             :         : 6         : N              
+~ALTERA_DCLK~                : H1        : output : 2.5 V             :         : 1         : N              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : H2        : input  : 2.5 V             :         : 1         : N              
+TCK                          : H3        : input  :                   :         : 1         :                
+TDI                          : H4        : input  :                   :         : 1         :                
+nCONFIG                      : H5        :        :                   :         : 1         :                
+VCCINT                       : H6        : power  :                   : 1.2V    :           :                
+GND                          : H7        : gnd    :                   :         :           :                
+GND                          : H8        : gnd    :                   :         :           :                
+GND                          : H9        : gnd    :                   :         :           :                
+GND                          : H10       : gnd    :                   :         :           :                
+VCCINT                       : H11       : power  :                   : 1.2V    :           :                
+MSEL1                        : H12       :        :                   :         : 6         :                
+MSEL0                        : H13       :        :                   :         : 6         :                
+CONF_DONE                    : H14       :        :                   :         : 6         :                
+GND                          : H15       : gnd    :                   :         :           :                
+GND                          : H16       : gnd    :                   :         :           :                
+BRN[1]                       : J1        : output : 2.5 V             :         : 2         : N              
+BRN[2]                       : J2        : output : 2.5 V             :         : 2         : N              
+nCE                          : J3        :        :                   :         : 1         :                
+TDO                          : J4        : output :                   :         : 1         :                
+TMS                          : J5        : input  :                   :         : 1         :                
+BRN[14]                      : J6        : output : 2.5 V             :         : 2         : N              
+GND                          : J7        : gnd    :                   :         :           :                
+GND                          : J8        : gnd    :                   :         :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+GND                          : J10       : gnd    :                   :         :           :                
+CONTROL[17]                  : J11       : output : 2.5 V             :         : 5         : N              
+CONTROL[7]                   : J12       : output : 2.5 V             :         : 5         : N              
+CONTROL[26]                  : J13       : output : 2.5 V             :         : 5         : N              
+CONTROL[12]                  : J14       : output : 2.5 V             :         : 5         : N              
+RAMN[5]                      : J15       : output : 2.5 V             :         : 5         : N              
+RAMN[13]                     : J16       : output : 2.5 V             :         : 5         : N              
+BRN[10]                      : K1        : output : 2.5 V             :         : 2         : N              
+CONTROL[21]                  : K2        : output : 2.5 V             :         : 2         : N              
+VCCIO2                       : K3        : power  :                   : 2.5V    : 2         :                
+GND                          : K4        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K5        :        :                   :         : 2         :                
+BROUT[6]                     : K6        : output : 2.5 V             :         : 2         : N              
+VCCINT                       : K7        : power  :                   : 1.2V    :           :                
+BROUT[14]                    : K8        : output : 2.5 V             :         : 3         : N              
+ACC[5]                       : K9        : output : 2.5 V             :         : 4         : N              
+CONTROL[3]                   : K10       : output : 2.5 V             :         : 4         : N              
+CONTROL[25]                  : K11       : output : 2.5 V             :         : 5         : N              
+RAMN[7]                      : K12       : output : 2.5 V             :         : 5         : N              
+GND                          : K13       : gnd    :                   :         :           :                
+VCCIO5                       : K14       : power  :                   : 2.5V    : 5         :                
+RAMN[4]                      : K15       : output : 2.5 V             :         : 5         : N              
+RAMN[1]                      : K16       : output : 2.5 V             :         : 5         : N              
+BROUT[11]                    : L1        : output : 2.5 V             :         : 2         : N              
+IROUT[2]                     : L2        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 2         :                
+VCCA1                        : L5        : power  :                   : 2.5V    :           :                
+BROUT[10]                    : L6        : output : 2.5 V             :         : 2         : N              
+ACC[6]                       : L7        : output : 2.5 V             :         : 3         : N              
+ACC[14]                      : L8        : output : 2.5 V             :         : 3         : N              
+BROUT[0]                     : L9        : output : 2.5 V             :         : 4         : N              
+CONTROL[0]                   : L10       : output : 2.5 V             :         : 4         : N              
+RAMN[14]                     : L11       : output : 2.5 V             :         : 4         : N              
+RAMN[11]                     : L12       : output : 2.5 V             :         : 5         : N              
+CAROUT[1]                    : L13       : output : 2.5 V             :         : 5         : N              
+BROUT[13]                    : L14       : output : 2.5 V             :         : 5         : N              
+CAROUT[4]                    : L15       : output : 2.5 V             :         : 5         : N              
+IROUT[4]                     : L16       : output : 2.5 V             :         : 5         : N              
+GND+                         : M1        :        :                   :         : 2         :                
+clk                          : M2        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : M3        : power  :                   : 2.5V    : 2         :                
+GND                          : M4        : gnd    :                   :         :           :                
+GNDA1                        : M5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 3         :                
+CONTROL[11]                  : M7        : output : 2.5 V             :         : 3         : N              
+BRN[7]                       : M8        : output : 2.5 V             :         : 3         : N              
+ACC[8]                       : M9        : output : 2.5 V             :         : 4         : N              
+CAROUT[6]                    : M10       : output : 2.5 V             :         : 4         : N              
+MAROUT[2]                    : M11       : output : 2.5 V             :         : 4         : N              
+RAMN[15]                     : M12       : output : 2.5 V             :         : 5         : N              
+GND                          : M13       : gnd    :                   :         :           :                
+VCCIO5                       : M14       : power  :                   : 2.5V    : 5         :                
+GND+                         : M15       :        :                   :         : 5         :                
+GND+                         : M16       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N1        :        :                   :         : 2         :                
+BRN[4]                       : N2        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N3        :        :                   :         : 3         :                
+VCCD_PLL1                    : N4        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 3         :                
+BRN[9]                       : N6        : output : 2.5 V             :         : 3         : N              
+GND                          : N7        : gnd    :                   :         :           :                
+CONTROL[29]                  : N8        : output : 2.5 V             :         : 3         : N              
+ACC[11]                      : N9        : output : 2.5 V             :         : 4         : N              
+GND                          : N10       : gnd    :                   :         :           :                
+RAMN[8]                      : N11       : output : 2.5 V             :         : 4         : N              
+RAMN[12]                     : N12       : output : 2.5 V             :         : 4         : N              
+RAMN[10]                     : N13       : output : 2.5 V             :         : 5         : N              
+CONTROL[30]                  : N14       : output : 2.5 V             :         : 5         : N              
+CONTROL[23]                  : N15       : output : 2.5 V             :         : 5         : N              
+CONTROL[1]                   : N16       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 3         :                
+VCCIO3                       : P4        : power  :                   : 2.5V    : 3         :                
+GND                          : P5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :         : 3         :                
+VCCIO3                       : P7        : power  :                   : 2.5V    : 3         :                
+BRN[5]                       : P8        : output : 2.5 V             :         : 3         : N              
+CONTROL[2]                   : P9        : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : P10       : power  :                   : 2.5V    : 4         :                
+RAMN[6]                      : P11       : output : 2.5 V             :         : 4         : N              
+GND                          : P12       : gnd    :                   :         :           :                
+VCCIO4                       : P13       : power  :                   : 2.5V    : 4         :                
+IROUT[0]                     : P14       : output : 2.5 V             :         : 4         : N              
+CONTROL[5]                   : P15       : output : 2.5 V             :         : 5         : N              
+CONTROL[22]                  : P16       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
+GND                          : R2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R3        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 3         :                
+ACC[7]                       : R5        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 3         :                
+BRN[15]                      : R7        : output : 2.5 V             :         : 3         : N              
+BRN[12]                      : R8        : output : 2.5 V             :         : 3         : N              
+ACC[12]                      : R9        : output : 2.5 V             :         : 4         : N              
+ACC[9]                       : R10       : output : 2.5 V             :         : 4         : N              
+ACC[10]                      : R11       : output : 2.5 V             :         : 4         : N              
+BRN[13]                      : R12       : output : 2.5 V             :         : 4         : N              
+CONTROL[4]                   : R13       : output : 2.5 V             :         : 4         : N              
+CONTROL[28]                  : R14       : output : 2.5 V             :         : 4         : N              
+GND                          : R15       : gnd    :                   :         :           :                
+CONTROL[6]                   : R16       : output : 2.5 V             :         : 5         : N              
+VCCIO3                       : T1        : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T2        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 3         :                
+CAROUT[7]                    : T5        : output : 2.5 V             :         : 3         : N              
+BROUT[2]                     : T6        : output : 2.5 V             :         : 3         : N              
+BRN[3]                       : T7        : output : 2.5 V             :         : 3         : N              
+BRN[11]                      : T8        : output : 2.5 V             :         : 3         : N              
+CONTROL[14]                  : T9        : output : 2.5 V             :         : 4         : N              
+CONTROL[9]                   : T10       : output : 2.5 V             :         : 4         : N              
+ACC[13]                      : T11       : output : 2.5 V             :         : 4         : N              
+RAMOUT[14]                   : T12       : output : 2.5 V             :         : 4         : N              
+CAROUT[3]                    : T13       : output : 2.5 V             :         : 4         : N              
+CAROUT[2]                    : T14       : output : 2.5 V             :         : 4         : N              
+CONTROL[31]                  : T15       : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : T16       : power  :                   : 2.5V    : 4         :                

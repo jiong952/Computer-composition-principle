@@ -1,0 +1,162 @@
+Determining the location of the ModelSim executable...
+
+Using: c:/intelfpga_lite/20.1/modelsim_ase/win32aloem/
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off zjh_Hardwiring_cpu -c zjh_Hardwiring_cpu --vector_source="C:/intelFPGA_lite/20.1/3120005043_f4a/Waveform1.vwf" --testbench_file="C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/Waveform1.vwf.vht"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Fri Dec 17 13:21:18 2021
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off zjh_Hardwiring_cpu -c zjh_Hardwiring_cpu --vector_source=C:/intelFPGA_lite/20.1/3120005043_f4a/Waveform1.vwf --testbench_file=C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/Waveform1.vwf.vht
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/" zjh_Hardwiring_cpu -c zjh_Hardwiring_cpu
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Fri Dec 17 13:21:19 2021
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/ zjh_Hardwiring_cpu -c zjh_Hardwiring_cpu
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file zjh_Hardwiring_cpu.vho in folder "C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4641 megabytes
+    Info: Processing ended: Fri Dec 17 13:21:20 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/zjh_Hardwiring_cpu.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do zjh_Hardwiring_cpu.do
+
+Reading pref.tcl
+
+# 2020.1
+
+
+# do zjh_Hardwiring_cpu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:21:21 on Dec 17,2021
+# vcom -work work zjh_Hardwiring_cpu.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cyclone10lp_atom_pack
+# -- Loading package cyclone10lp_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity top_level
+# -- Compiling architecture structure of top_level
+
+# End time: 13:21:21 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:21:22 on Dec 17,2021
+# vcom -work work Waveform1.vwf.vht 
+
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_level_vhd_vec_tst
+# -- Compiling architecture top_level_arch of top_level_vhd_vec_tst
+# End time: 13:21:22 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -c -t 1ps -L cyclone10lp -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.top_level_vhd_vec_tst 
+# Start time: 13:21:22 on Dec 17,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.top_level_vhd_vec_tst(top_level_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cyclone10lp.cyclone10lp_atom_pack(body)
+# Loading cyclone10lp.cyclone10lp_components
+# Loading work.top_level(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cyclone10lp.cyclone10lp_io_obuf(arch)
+# Loading cyclone10lp.cyclone10lp_io_ibuf(arch)
+# Loading cyclone10lp.cyclone10lp_clkctrl(vital_clkctrl)
+# Loading cyclone10lp.cyclone10lp_ena_reg(behave)
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# ** Warning: Design size of 136698 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# after#35
+
+# End time: 13:21:23 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading C:/intelFPGA_lite/20.1/3120005043_f4a/Waveform1.vwf...
+
+Reading C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/zjh_Hardwiring_cpu.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to C:/intelFPGA_lite/20.1/3120005043_f4a/simulation/qsim/zjh_Hardwiring_cpu_20211217132123.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

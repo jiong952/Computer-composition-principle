@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "abusX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "abusX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dbusX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_enDX",
+					"strict" : false
+				},
+				{
+					"name" : "mem_rwX",
+					"strict" : false
+				},
+				{
+					"name" : "pc_enAX",
+					"strict" : false
+				},
+				{
+					"name" : "pc_ldX",
+					"strict" : false
+				},
+				{
+					"name" : "pc_incX",
+					"strict" : false
+				},
+				{
+					"name" : "ir_enAX",
+					"strict" : false
+				},
+				{
+					"name" : "ir_enDX",
+					"strict" : false
+				},
+				{
+					"name" : "ir_ldX",
+					"strict" : false
+				},
+				{
+					"name" : "acc_enDX",
+					"strict" : false
+				},
+				{
+					"name" : "acc_ldX",
+					"strict" : false
+				},
+				{
+					"name" : "acc_selAluX",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "acc_QX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_accZX",
+					"strict" : false
+				},
+				{
+					"name" : "alu_opX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_opX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_opX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

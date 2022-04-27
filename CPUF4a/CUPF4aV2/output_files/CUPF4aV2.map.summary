@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Dec 19 17:56:48 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : CUPF4aV2
+Top-level Entity Name : CUPF4aV2
+Family : Cyclone IV E
+Total logic elements : 1,180
+    Total combinational functions : 1,180
+    Dedicated logic registers : 51
+Total registers : 51
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Nov 11 13:31:32 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : SINGT
+Top-level Entity Name : SINGT
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 208 / 6,272 ( 3 % )
+    Total combinational functions : 181 / 6,272 ( 3 % )
+    Dedicated logic registers : 125 / 6,272 ( 2 % )
+Total registers : 125
+Total pins : 9 / 92 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 512 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
